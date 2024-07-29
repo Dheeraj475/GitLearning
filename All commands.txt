@@ -65,4 +65,4 @@ Cloning the git to locals:
 20.Creating branch on local and switching:
   -->> git checkout -b <branch-name>
   -->> git switch -c <branch-name>
-  [Make sure you to make the new pull requet to merge the branch to the default one]
+  [Make sure you to make the new pull request to merge the branch to the default one]
