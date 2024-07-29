@@ -48,7 +48,7 @@ Cloning the git to locals:
   -->> git stash
 
 15.Applies the stashed changes back to the working directory for commiting.
-  -->> git stash apply
+  -->> git stash apply stash@{0}
 
 16.Discard/revert changes in the file
   -->> git restore <file-name>
@@ -58,3 +58,6 @@ Cloning the git to locals:
 
 18.creates a new directory called .git in the current directory. 
   -->> git init
+
+19.Retriving the all stashed list shows the all stashed:
+  -->> git stash list
