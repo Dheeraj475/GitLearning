@@ -1,5 +1,5 @@
 Cloning the git to locals:
-  -->> git clone <https/ssh>
+  -->> git clone <Enter your: https/ssh>
 
 1.Showing the branches:
   -->> git branch
