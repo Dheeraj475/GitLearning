@@ -5,7 +5,8 @@ Cloning the git to locals:
   -->> git branch
 
 2.Switcing branch to another:
-  -->> git switch -c <branch-name>
+  -->> git switch <branch-name>
+  -->> git checkout <branch-name>
 
 3.Shows any stages like modified files you can unstage this also and branch (means any changes in code):
   -->> git status
@@ -61,6 +62,7 @@ Cloning the git to locals:
 19.Retriving the all stashed list shows the all stashed:
   -->> git stash list 
 
-20.Creating branch on local or switching:
+20.Creating branch on local and switching:
   -->> git checkout -b <branch-name>
+  -->> git switch -c <branch-name>
   [Make sure you to make the new pull requet to merge the branch to the default one]
