@@ -55,5 +55,3 @@ Cloning the git to locals:
 
 17.Commited mistakenly revert the changes:
   -->> git reset --hard HEAD^
-
-mistake
