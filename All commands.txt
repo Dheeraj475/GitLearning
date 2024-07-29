@@ -6,6 +6,7 @@ Cloning the git to locals:
 
 2.Switcing branch to another:
   -->> git switch -c <branch-name>
+  -->> git checkout <branch-name>
 
 3.Shows any stages like modified files you can unstage this also and branch (means any changes in code):
   -->> git status
