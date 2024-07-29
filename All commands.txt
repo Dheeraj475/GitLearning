@@ -50,9 +50,7 @@ Cloning the git to locals:
 15.Applies the stashed changes back to the working directory.
   -->> git stash apply
 
-16.Discard changes in the file
+16.Discard/revert changes in the file
   -->> git restore
-
- 
 
 
