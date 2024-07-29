@@ -44,6 +44,14 @@ Cloning the git to locals:
 13.Sends the local when repository changes:
   -->>git pull
 
+14. Saves local changes temporarily and reverts the working directory to match the HEAD commit.
+  -->> git stash
+
+15.Applies the stashed changes back to the working directory.
+  -->> git stash apply
+
+16.Discard changes in the file
+  -->> git restore
 
  
 
