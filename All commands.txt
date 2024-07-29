@@ -51,6 +51,7 @@ Cloning the git to locals:
   -->> git stash apply
 
 16.Discard/revert changes in the file
-  -->> git restore
+  -->> git restore "<file-name>"
 
-
+17.Commited mistakenly revert the changes:
+  -->> git reset --hard HEAD^
