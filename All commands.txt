@@ -6,7 +6,6 @@ Cloning the git to locals:
 
 2.Switcing branch to another:
   -->> git switch -c <branch-name>
-  -->> git checkout <branch-name>
 
 3.Shows any stages like modified files you can unstage this also and branch (means any changes in code):
   -->> git status
@@ -39,13 +38,13 @@ Cloning the git to locals:
   -->> git add.
 
 12.Setting Upstream Branch: This links your local branch to the remote branch, allowing you to use git pull without specifying the remote and branch every time:
-  -->> git branch --set-upstream-to=origin/main main
+  -->> git branch --set-upstream origin Dheeraj-branch
 
 13.Sends the local when repository changes:
   -->> git pull
 
 14. Saves local changes temporarily like bin and reverts the working directory to match the HEAD commit.
-  -->> git stash
+  -->> git stash save '29th july'
 
 15.Applies the stashed changes back to the working directory for commiting.
   -->> git stash apply stash@{0}
@@ -60,4 +59,7 @@ Cloning the git to locals:
   -->> git init
 
 19.Retriving the all stashed list shows the all stashed:
-  -->> git stash list (Dheeraj Basude)
+  -->> git stash list 
+
+20.Creating branch on local or switching:
+  -->> git checkout -b <branch-name>
