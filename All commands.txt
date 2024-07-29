@@ -1,0 +1,37 @@
+1.Showing the branches:
+  -->> git branch
+
+2.Switcing branch to another:
+  -->> git switch -c <branch-name>
+
+3.Shows any stages like modified files you can unstage this also and branch (means any changes in code):
+  -->> git status
+
+4.Add the modified file:
+  -->> git add <file-name>
+
+5.Add the commit message:
+  -->> git commit -m '<message>'
+
+6.Sending the files local to repository:
+  -->> git push
+
+7.Adding multiple files:
+  -->> git add <file-name> <another-file> etc..
+
+8.Adds the All Changes in the repository:
+  -->> git add -A
+
+9.Add all changes except a specific file or a folder:
+  -->> git add . -- :!README.md
+  -->> git add . -- :!excluded-folder/
+
+10.Add files matching a pattern (e.g., all .txt files):
+  -->> git add *.txt
+  -->> git add folder/*.java
+
+11.Add all changes in the current directory:
+  -->> git add.
+ 
+
+
