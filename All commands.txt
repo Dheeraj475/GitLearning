@@ -1,3 +1,6 @@
+Cloning the git to locals:
+  -->> git clone <httpsorssh>
+
 1.Showing the branches:
   -->> git branch
 
