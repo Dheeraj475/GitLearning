@@ -29,6 +29,7 @@ Cloning the git to locals:
 9.Add all changes except a specific file or a folder:
   -->> git add . -- :!README.md
   -->> git add . -- :!excluded-folder/
+  -->> git add *
 
 10.Add files matching a pattern (e.g., all .txt files):
   -->> git add *.txt
@@ -36,6 +37,14 @@ Cloning the git to locals:
 
 11.Add all changes in the current directory:
   -->> git add.
+
+12.Setting Upstream Branch: This links your local branch to the remote branch, allowing you to use git pull without specifying the remote and branch every time:
+  -->>git branch --set-upstream-to=origin/main main
+
+13.Sends the local when repository changes:
+  -->>git pull
+
+
  
 
 
