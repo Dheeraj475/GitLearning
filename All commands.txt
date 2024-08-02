@@ -4,7 +4,7 @@ Cloning the git to locals:
 1.Showing the branches:
   -->> git branch
 
-2.Switcing branch to another:
+2.Switcing bragitnch to another:
   -->> git switch <branch-name>
   -->> git checkout <branch-name>
 
