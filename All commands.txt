@@ -70,4 +70,7 @@ Cloning the git to locals:
 21.Showing the list of all branches:
   -->> git branch -a
 
+22.Deleting the branch locally that was deleted in github:
+  -->> git fetch --prune
+
 
